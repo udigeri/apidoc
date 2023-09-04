@@ -1,0 +1,26 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
+collections:
+  doc:
+    title: Documentation
+    position_number: 1
+  api:
+    title: APIs
+    position_number: 2
+  test:
+    title: Testing
+    position_number: 3
+
+languages:
+  bash: Bash
+  c: C
+  css: CSS
+  html: HTML
+  java: Java
+  javascript: JavaScript
+  json: JSON
+  php: PHP
+  python: Python
+  ruby: Ruby

@@ -1,0 +1,23 @@
+---
+layout: null
+---
+
+$nav-header-height: 60px;
+$nav-background-color: #f5f5f5;
+$nav-width: 210px;
+
+$space: 20px;
+
+$mobile-break: 700px;
+
+// {% if site.baseurl %}
+// 	$base-url: {{ site.baseurl }};
+// {% else %}
+// 	$base-url: '';
+// {% endif %}
+
+@import "_mixins";
+@import "_main";
+@import "_sidebar";
+@import "_borland";
+@import "_monaki";

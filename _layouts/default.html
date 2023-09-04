@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/main.js"></script>
+  </head>
+  <body>
+    <header>
+ 			<!-- <h1>
+				<button type="button" class="open-nav" id="open-nav"></button>
+				<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" height="40" alt="{{ site.title }} logo"></a>
+			</h1>
+
+			<form action="{{ site.baseurl }}/search/" method="get">
+				<input type="text" name="q" id="search-input" placeholder="Search">
+				<input type="submit" value="Search" style="display: none;">
+			</form> -->
+
+      {% include sidebar.html %}
+
+			<p class="copyright">
+				<a href="https://example.com/">
+					Template by team
+				</a>
+			</p>
+    </header>
+    <div class="main">
+      {{ content }}
+    </div>
+    <!-- <script>
+      document.getElementById("open-nav").addEventListener("click", function () {
+        document.body.classList.toggle("nav-open");
+      });
+    </script> -->
+
+  </body>
+</html>
