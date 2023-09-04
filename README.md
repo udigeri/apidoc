@@ -18,6 +18,12 @@ Start documenting your API with this configurable theme.
 
 API doc was built with [Jekyll](http://jekyllrb.com/) version 4.3.2, but should support newer versions as well.
 
+~~~bash
+$ jekyll serve -P4001 --watch
+~~~
+
+or 
+
 Install the dependencies with [Bundler](http://bundler.io/):
 
 ~~~bash
